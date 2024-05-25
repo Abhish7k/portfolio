@@ -24,7 +24,7 @@ export default function RootLayout({
           enableSystem
           disableTransitionOnChange
         >
-          <div className="h-screen w-full dark:bg-black bg-white  dark:bg-grid-white/[0.1] bg-grid-black/[0.1] relative">
+          <div className="h-screen w-full dark:bg-black bg-white  dark:bg-grid-white/[0.05] bg-grid-black/[0.05] relative">
             {children}
           </div>
         </ThemeProvider>
