@@ -11,7 +11,7 @@ const Navbar = () => {
             <span className="text-2xl font-bold">Abhishek</span>
             🧑🏻‍💻
           </div>
-          <div className="h-1 w-full bg-green-500 rounded-full"></div>
+          <div className="h-1 w-full bg-indigo-400 rounded-full"></div>
         </Link>
       </div>
       <div>
