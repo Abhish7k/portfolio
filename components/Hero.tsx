@@ -14,14 +14,13 @@ const Hero = () => {
           className="border-2 border-green-400"
         />
       </div>
-      <div className="mt-10 flex-col space-y-5 items-center justify-center text-center">
+      <div className="mt-14 flex-col space-y-5 items-center justify-center text-center">
         <h1 className="flex items-center justify-center text-3xl font-bold text-center">
           Hey, I&apos;m Abhishek
           <span className="cursor-pointer ml-1 hover:animate-wave">👋</span>
         </h1>
         <div className="text-lg max-w-xl">
-          I&apos;m a passionate Full Stack Developer transforming caffeine into
-          awesome web applications.
+          I&apos;m a Passionate Full Stack Developer based in Pune, India 📍
         </div>
       </div>
     </div>
