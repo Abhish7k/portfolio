@@ -3,7 +3,7 @@ import React from "react";
 
 const Hero = () => {
   return (
-    <div className="flex flex-col items-center mt-24">
+    <div className="flex flex-col items-center mt-24 h-[80vh]">
       <div className="">
         <Image
           src="/main.jpeg"
@@ -11,10 +11,10 @@ const Hero = () => {
           height={250}
           width={250}
           id="profile-image"
-          className="border-2 border-green-400"
+          className="border-2 border-green-400 w-52 md:w-full"
         />
       </div>
-      <div className="mt-14 flex-col space-y-5 items-center justify-center text-center">
+      <div className="mt-14 px-4 flex-col space-y-5 items-center justify-center text-center">
         <h1 className="flex items-center justify-center text-3xl font-bold text-center">
           Hey, I&apos;m Abhishek
           <span className="cursor-pointer ml-1 hover:animate-wave">👋</span>
