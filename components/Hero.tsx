@@ -1,13 +1,24 @@
+"use client";
+
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 import { Button } from "./ui/button";
 import { HiDownload } from "react-icons/hi";
 import { FiArrowUpRight } from "react-icons/fi";
+import { motion } from "framer-motion";
 
 const Hero = () => {
   return (
-    <div className="flex flex-col items-center mt-24 h-[80vh]">
+    <motion.div
+      className="flex flex-col items-center mt-24 h-[80vh]"
+      initial={{ opacity: 0, y: 10 }}
+      animate={{ opacity: 1, y: 0 }}
+      transition={{
+        duration: 0.5,
+        delay: 0.2,
+      }}
+    >
       <div className="">
         <Image
           src="/main.jpeg"
@@ -41,7 +52,7 @@ const Hero = () => {
           </Button>
         </Link>
       </div>
-    </div>
+    </motion.div>
   );
 };
 

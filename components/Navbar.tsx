@@ -1,6 +1,9 @@
+"use client";
+
 import { ThemeToggle } from "./ThemeToggle";
 import Link from "next/link";
 import { SiGithub, SiLinkedin, SiTwitter } from "react-icons/si";
+import { motion } from "framer-motion";
 
 const Navbar = () => {
   const socials = [
@@ -22,11 +25,21 @@ const Navbar = () => {
   ];
 
   return (
-    <div className="flex justify-between mx-[5%] md:mx-[10%] lg:mx-[20%] pt-10 transition-all">
+    <motion.div
+      className="flex justify-between mx-[5%] md:mx-[10%] lg:mx-[20%] pt-10"
+      initial={{ opacity: 0, y: -30 }}
+      animate={{ opacity: 1, y: 0 }}
+      transition={{
+        duration: 0.5,
+        delay: 0.2,
+      }}
+    >
       <div className="dark:text-white text-center flex-col items-center">
         <Link href="/">
           <div className="flex gap-2 items-center">
-            <span className="text-2xl md:text-3xl font-bold">Abhishek</span>
+            <span className="text-2xl md:text-3xl font-bold transition-all">
+              Abhishek
+            </span>
             🧑🏻‍💻
           </div>
           <div className="h-1 w-full bg-indigo-400 rounded-full"></div>
@@ -50,7 +63,7 @@ const Navbar = () => {
         </div>
         <ThemeToggle />
       </div>
-    </div>
+    </motion.div>
   );
 };
 
