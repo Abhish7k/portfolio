@@ -39,7 +39,11 @@ const Hero = () => {
         </div>
       </div>
       <div className="mt-10 flex items-center gap-2">
-        <Link href="/resume.pdf" target="_blank" className="">
+        <Link
+          href="https://dub.sh/abhish7k-resume"
+          target="_blank"
+          className=""
+        >
           <Button className="px-6 rounded-full gap-2 text-lg" variant="outline">
             Resume
             <HiDownload />
