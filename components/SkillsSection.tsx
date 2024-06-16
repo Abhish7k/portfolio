@@ -1,8 +1,17 @@
+"use client";
+
 import Skills from "./Skills";
+import { motion } from "framer-motion";
 
 export default function SkillsSection() {
   return (
-    <div className="my-20 mx-[5%] md:mx-[10%] lg:mx-[20%]">
+    <motion.div
+      className="mt-20 mb-40 mx-[5%] md:mx-[10%] lg:mx-[20%]"
+      viewport={{ once: false }}
+      initial={{ opacity: 0, y: 10 }}
+      whileInView={{ opacity: 1, y: 0 }}
+      transition={{ type: "easIn", duration: 0.5, delay: 0.2 }}
+    >
       {/* section title */}
       <div className="text-center flex-col items-center">
         <div>
@@ -17,6 +26,6 @@ export default function SkillsSection() {
       <div className="mt-20">
         <Skills />
       </div>
-    </div>
+    </motion.div>
   );
 }
