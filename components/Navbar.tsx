@@ -40,7 +40,7 @@ const Navbar = () => {
             <span className="text-2xl md:text-3xl font-bold transition-all">
               Abhishek
             </span>
-            🧑🏻‍💻
+            <span className="text-xl md:text-2xl">🧑🏻‍💻</span>
           </div>
           <div className="h-1 w-full bg-indigo-400 rounded-full"></div>
         </Link>

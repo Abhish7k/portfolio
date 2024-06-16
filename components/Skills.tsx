@@ -1,4 +1,4 @@
-import { skills } from "@/lib/skill";
+import { skills } from "@/lib/data";
 import { Card, CardContent, CardHeader, CardTitle } from "./ui/card";
 import {
   Tooltip,
