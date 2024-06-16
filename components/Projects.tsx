@@ -30,7 +30,7 @@ export default function Projects() {
                 href={proj.liveLink}
                 target="_blank"
                 className="text-xl font-semibold
-              relative after:absolute after:bottom-0 after:left-0 after:h-[2px] after:w-full after:origin-bottom-right after:scale-x-0 after:bg-neutral-800 dark:after:bg-neutral-100 after:transition-transform after:duration-300 after:ease-[cubic-bezier(0.65_0.05_0.36_1)] hover:after:origin-bottom-left hover:after:scale-x-100"
+              relative after:absolute after:bottom-0 after:left-0 after:h-[2px] after:w-full after:origin-bottom-right after:scale-x-0 after:bg-neutral-800 dark:after:bg-neutral-100 after:transition-transform after:duration-300 after:ease-&lsqb;cubic-bezier(0.65_0.05_0.36_1)&rsqb hover:after:origin-bottom-left hover:after:scale-x-100"
               >
                 {proj.title}
               </Link>

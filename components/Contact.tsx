@@ -5,7 +5,7 @@ import { SiGithub, SiLinkedin, SiTwitter } from "react-icons/si";
 import { Button } from "./ui/button";
 import { motion } from "framer-motion";
 
-export default function Footer() {
+export default function Contact() {
   const socials = [
     {
       label: "LinkedIn",
@@ -55,7 +55,7 @@ export default function Footer() {
 
       {/* socials */}
       <div className="flex justify-center items-center mt-20">
-        <div className="hidden md:flex gap-5 transition-all">
+        <div className="flex gap-5 transition-all">
           {socials.map((social) => {
             return (
               <Link

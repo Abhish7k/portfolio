@@ -2,7 +2,7 @@ import Hero from "@/components/Hero";
 import Navbar from "@/components/Navbar";
 import SkillsSection from "@/components/SkillsSection";
 import ProjectsSection from "@/components/ProjectsSection";
-import Footer from "@/components/Footer";
+import Contact from "@/components/Contact";
 
 export default function Home() {
   return (
@@ -11,7 +11,7 @@ export default function Home() {
       <Hero />
       <SkillsSection />
       <ProjectsSection />
-      <Footer />
+      <Contact />
     </main>
   );
 }
