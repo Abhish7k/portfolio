@@ -28,13 +28,13 @@ export default function Footer() {
           Get in Touch
           <div className="h-1 w-[120%] bg-indigo-400 rounded-full"></div>
         </div>
-        <span className="text-xl md:text-2xl ml-1 hover:animate-wave cursor-pointer">
+        <span className="text-xl md:text-3xl ml-1 hover:animate-wave cursor-pointer">
           📬
         </span>
       </div>
 
-      <div className="flex flex-col gap-10 justify-center items-center text-center text-lg mt-10 mx-[25%]">
-        <h1>
+      <div className="flex flex-col gap-10 justify-center items-center mt-10 mx-[10%] md:mx-[15%] xl::mx-[25%]">
+        <h1 className="text-center">
           I&apos;m on the lookout for new opportunities and my inbox is always
           open, Got a question or just want to say Hi, Just drop me a line,
           I&apos;ll get back to you in no time!
