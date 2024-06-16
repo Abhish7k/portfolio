@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 export default function SkillsSection() {
   return (
     <motion.div
-      className="mt-20 mb-40 mx-[5%] md:mx-[10%] lg:mx-[20%]"
+      className="mt-20 mb-40 mx-[10%] md:mx-[10%] lg:mx-[20%]"
       viewport={{ once: false }}
       initial={{ opacity: 0, y: 10 }}
       whileInView={{ opacity: 1, y: 0 }}

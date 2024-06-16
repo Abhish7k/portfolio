@@ -124,3 +124,29 @@ export const skills = [
     ],
   },
 ];
+
+export const projectsData = [
+  {
+    title: "NoteVerse",
+    description: "Note Taking Saas Platform.",
+    techStack: [
+      "TypeScript",
+      "Next.js",
+      "Tailwind",
+      "Prisma",
+      "Supabase",
+      "Stripe",
+    ],
+    githubLink: "https://github.com/Abhish7k/NoteVerse",
+    liveLink: "https://noteverse-saas.vercel.app/",
+    image: "/noteverse.png",
+  },
+  {
+    title: "Summify",
+    description: "AI Artcile Summarizer.",
+    techStack: ["JavaScript", "React.js", "Tailwind", "Redux", "RapidAPI"],
+    githubLink: "https://github.com/Abhish7k/summify",
+    liveLink: "https://aisummify.vercel.app/",
+    image: "/summify.png",
+  },
+];

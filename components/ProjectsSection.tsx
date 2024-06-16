@@ -1,6 +1,8 @@
+import Projects from "./Projects";
+
 export default function ProjectsSection() {
   return (
-    <div className="mt-60 mb-60 mx-[5%] md:mx-[10%] lg:mx-[20%]">
+    <div className="mt-60 mb-40 mx-[10%] md:mx-[10%] lg:mx-[20%]">
       {/* section title */}
       <div className="text-center flex-col items-center">
         <div>
@@ -11,6 +13,9 @@ export default function ProjectsSection() {
           <div className="h-1.5 w-24 md:w-48 -ml-1 bg-indigo-400 rounded-full"></div>
         </div>
       </div>
+
+      {/* projects */}
+      <Projects />
     </div>
   );
 }
