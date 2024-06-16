@@ -1,8 +1,17 @@
+"use client";
+
 import Projects from "./Projects";
+import { motion } from "framer-motion";
 
 export default function ProjectsSection() {
   return (
-    <div className="mt-60 mb-40 mx-[10%] md:mx-[10%] lg:mx-[20%]">
+    <motion.div
+      className="mt-60 mb-40 mx-[10%] md:mx-[10%] lg:mx-[20%]"
+      viewport={{ once: true }}
+      initial={{ opacity: 0, y: 10 }}
+      whileInView={{ opacity: 1, y: 0 }}
+      transition={{ type: "easIn", duration: 0.5, delay: 0.2 }}
+    >
       {/* section title */}
       <div className="text-center flex-col items-center">
         <div>
@@ -16,6 +25,6 @@ export default function ProjectsSection() {
 
       {/* projects */}
       <Projects />
-    </div>
+    </motion.div>
   );
 }
