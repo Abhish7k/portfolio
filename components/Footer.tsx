@@ -1,6 +1,9 @@
+"use client";
+
 import Link from "next/link";
 import { SiGithub, SiLinkedin, SiTwitter } from "react-icons/si";
 import { Button } from "./ui/button";
+import { motion } from "framer-motion";
 
 export default function Footer() {
   const socials = [
@@ -22,7 +25,13 @@ export default function Footer() {
   ];
 
   return (
-    <div className="mt-60 mb-20 border-t mx-[5%] md:mx-[10%] lg:mx-[15%] flex flex-col justify-center items-center">
+    <motion.div
+      className="mt-60 mb-20 border-t mx-[5%] md:mx-[10%] lg:mx-[15%] flex flex-col justify-center items-center"
+      viewport={{ once: true }}
+      initial={{ opacity: 0, y: 10 }}
+      whileInView={{ opacity: 1, y: 0 }}
+      transition={{ type: "easIn", duration: 0.5, delay: 0.2 }}
+    >
       <div className="mt-10 flex">
         <div className="text-2xl md:text-3xl font-bold transition-all">
           Get in Touch
@@ -33,8 +42,8 @@ export default function Footer() {
         </span>
       </div>
 
-      <div className="flex flex-col gap-10 justify-center items-center mt-10 mx-[10%] md:mx-[15%] xl::mx-[25%]">
-        <h1 className="text-center">
+      <div className="flex flex-col gap-10 justify-center items-center mt-10 mx-[10%] md:mx-[15%] xl:mx-[27%]">
+        <h1 className="text-center lg:text-lg transition-all">
           I&apos;m on the lookout for new opportunities and my inbox is always
           open, Got a question or just want to say Hi, Just drop me a line,
           I&apos;ll get back to you in no time!
@@ -62,6 +71,6 @@ export default function Footer() {
           })}
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 }
