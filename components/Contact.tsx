@@ -30,7 +30,7 @@ export default function Contact() {
       viewport={{ once: true }}
       initial={{ opacity: 0, y: 10 }}
       whileInView={{ opacity: 1, y: 0 }}
-      transition={{ type: "easIn", duration: 0.5, delay: 0.2 }}
+      transition={{ type: "easIn", duration: 0.5, delay: 0.6 }}
     >
       <div className="mt-10 flex">
         <div className="text-2xl md:text-3xl font-bold transition-all">

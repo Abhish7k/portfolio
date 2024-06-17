@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+  scroll-behavior: smooth;
+}
+
 #profile-image {
   border-radius: 42% 56% 72% 28% / 42% 42% 56% 48%;
   animation: profileImageAnimation 8s linear infinite;
