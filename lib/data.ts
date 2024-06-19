@@ -143,7 +143,7 @@ export const projectsData = [
   },
   {
     title: "Summify",
-    description: "AI Artcile Summarizer.",
+    description: "AI Article Summarizer.",
     techStack: ["JavaScript", "React.js", "Tailwind", "Redux", "RapidAPI"],
     githubLink: "https://github.com/Abhish7k/summify",
     liveLink: "https://aisummify.vercel.app/",

@@ -45,8 +45,8 @@ export default function Contact() {
       <div className="flex flex-col gap-10 justify-center items-center mt-10 mx-[10%] md:mx-[15%] xl:mx-[27%]">
         <h1 className="text-center lg:text-lg transition-all">
           I&apos;m on the lookout for new opportunities and my inbox is always
-          open, Got a question or just want to say Hi, Just drop me a line,
-          I&apos;ll get back to you in no time!
+          open, Got a question or just want to say Hi, feel free to reach out to
+          me, I&apos;ll get back to you in no time!
         </h1>
         <Link href="mailto:abhishekbhosale.dev@gmail.com">
           <Button>Say Hello</Button>
