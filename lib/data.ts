@@ -5,12 +5,12 @@ export const skills = [
       {
         imgPath:
           "https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/JavaScript.svg",
-        toolTipContent: "Javascript",
+        toolTipContent: "JavaScript",
       },
       {
         imgPath:
           "https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/TypeScript.svg",
-        toolTipContent: "Typescript",
+        toolTipContent: "TypeScript",
       },
       {
         imgPath:
@@ -119,7 +119,7 @@ export const skills = [
       {
         imgPath:
           "https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/Linux-Dark.svg",
-        toolTipContent: "AWS",
+        toolTipContent: "Linux",
       },
     ],
   },
