@@ -11,6 +11,21 @@ html {
   animation: profileImageAnimation 8s linear infinite;
 }
 
+.cursor {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 30px;
+  height: 30px;
+  border: 1px solid white;
+  border-radius: 50%;
+  pointer-events: none;
+  z-index: 9999;
+  transform: translate(-50%, -50%);
+  mix-blend-mode: difference;
+  transition: transform 0.1s ease;
+}
+
 @keyframes profileImageAnimation {
   0%,
   100% {
