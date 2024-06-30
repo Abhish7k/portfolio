@@ -37,7 +37,7 @@ const CustomCursor = () => {
 
   return (
     <div
-      className="cursor"
+      className="cursor hidden sm:block"
       style={{ left: `${position.x}px`, top: `${position.y}px` }}
     />
   );
