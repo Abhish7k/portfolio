@@ -48,9 +48,9 @@ export default function Contact() {
           open, Got a question or just want to say Hi, feel free to reach out to
           me, I&apos;ll get back to you in no time!
         </h1>
-        <Link href="mailto:abhishekbhosale.dev@gmail.com">
+        <a href="mailto:abhishekbhosale.dev@gmail.com">
           <Button>Say Hello</Button>
-        </Link>
+        </a>
       </div>
 
       {/* socials */}

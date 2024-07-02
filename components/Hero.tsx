@@ -49,12 +49,15 @@ const Hero = () => {
             <HiDownload />
           </Button>
         </Link>
-        <Link href="mailto:abhishekbhosale.dev@gmail.com">
-          <Button className="px-6 rounded-full text-lg gap-2" variant="outline">
+        <Button className="px-6 rounded-full text-lg" variant="outline">
+          <a
+            href="mailto:abhishekbhosale.dev@gmail.com"
+            className="flex items-center gap-2"
+          >
             Contact me
             <FiArrowUpRight />
-          </Button>
-        </Link>
+          </a>
+        </Button>
       </div>
     </motion.div>
   );
