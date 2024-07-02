@@ -54,14 +54,14 @@ export default function Projects() {
             {/* links */}
             <div className="mt-10 flex">
               <Link
-                className="bg-white p-2 m-1 text-gray-700 flex items-center gap-2 text-[1.35rem] rounded-full focus:scale-[1.1] hover:scale-[1.1] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
+                className="bg-[#F5F4F4] p-2 m-1 text-gray-700 flex items-center gap-2 text-[1.35rem] rounded-full focus:scale-[1.1] hover:scale-[1.1] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
                 href={proj.liveLink}
                 target="_blank"
               >
                 <FaExternalLinkSquareAlt />
               </Link>
               <Link
-                className="bg-white p-2 m-1 text-gray-700 flex items-center gap-2 text-[1.35rem] rounded-full focus:scale-[1.1] hover:scale-[1.1] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
+                className="bg-[#F5F4F4] p-2 m-1 text-gray-700 flex items-center gap-2 text-[1.35rem] rounded-full focus:scale-[1.1] hover:scale-[1.1] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
                 href={proj.githubLink}
                 target="_blank"
               >

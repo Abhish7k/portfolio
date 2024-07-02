@@ -16,10 +16,14 @@ export default function ProjectsSection() {
       <div className="text-center flex-col items-center">
         <div>
           <div className="flex gap-2 items-center">
-            <span className="text-2xl md:text-4xl font-bold">Projects</span>
-            <span className="text-xl md:text-3xl">🛠️</span>
+            <span className="text-2xl md:text-4xl font-bold transition-all">
+              Projects
+            </span>
+            <span className="text-xl md:text-3xl hover:scale-110 transition-all">
+              🛠️
+            </span>
           </div>
-          <div className="h-1.5 w-24 md:w-48 -ml-1 bg-indigo-400 rounded-full"></div>
+          <div className="h-1.5 w-36 md:w-48 -ml-1 bg-indigo-400 rounded-full transition-all"></div>
         </div>
       </div>
 
