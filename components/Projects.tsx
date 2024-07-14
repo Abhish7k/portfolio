@@ -12,13 +12,13 @@ export default function Projects() {
           className="border p-4 max-w-lg bg-white dark:bg-gray-900 rounded-lg"
         >
           {/* image */}
-          <Link href={proj.liveLink} target="_blank">
+          <Link href={proj.liveLink} target="_blank" className="">
             <Image
               src={proj.image}
               alt="project"
               height={500}
               width={500}
-              className="rounded-lg"
+              className="rounded-lg object-cover max-h-64"
             />
           </Link>
 
