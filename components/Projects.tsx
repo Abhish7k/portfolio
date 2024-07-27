@@ -18,7 +18,7 @@ export default function Projects() {
               alt="project"
               height={500}
               width={500}
-              className="rounded-lg object-cover max-h-64"
+              className="rounded-lg flex items-start object-cover max-h-64 border"
             />
           </Link>
 

@@ -54,10 +54,7 @@ const Hero = () => {
         </Link>
 
         <Button className="px-6 rounded-full text-lg" variant="outline">
-          <a
-            href="mailto:abhishekbhosale.dev@gmail.com"
-            className="flex items-center gap-2"
-          >
+          <a href="/#contact" className="flex items-center gap-2">
             Contact me
             <FiArrowUpRight />
           </a>
