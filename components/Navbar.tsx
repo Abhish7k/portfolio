@@ -64,8 +64,8 @@ const Navbar = () => {
           <div className="h-1 w-full bg-indigo-400 rounded-full"></div>
         </Link>
       </div>
-      <div className="flex items-center gap-4">
-        <div className="hidden md:flex gap-4 transition-all">
+      <div className="flex items-center gap-2 md:gap-4">
+        <div className="flex gap-2 md:gap-4 transition-all">
           {socials.map((social) => {
             return (
               <Link
