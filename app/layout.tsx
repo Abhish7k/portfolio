@@ -27,7 +27,7 @@ export default function RootLayout({
           disableTransitionOnChange
         >
           <div
-            className="absolute left-1/2 top-72 sm:top-0 -z-10 -translate-x-1/2 blur-2xl sm:blur-3xl xl:-top-6"
+            className="absolute left-1/2 top-72 sm:top-0 -z-10 -translate-x-1/2 blur-2xl sm:blur-3xl xl:-top-6 overflow-hidden"
             aria-hidden="true"
           >
             <div
@@ -42,7 +42,7 @@ export default function RootLayout({
           <CustomCursor />
           {children}
 
-          <div className="h-screen w-full dark:bg-black bg-white  dark:bg-grid-white/[0.05] bg-grid-black/[0.05] fixed bottom-0 left-0 right-0 top-0 -z-20"></div>
+          <div className="h-screen w-full dark:bg-black bg-white  dark:bg-grid-white/[0.05] bg-grid-black/[0.05] fixed bottom-0 left-0 right-0 top-0 -z-20 overflow-hidden"></div>
         </ThemeProvider>
       </body>
     </html>

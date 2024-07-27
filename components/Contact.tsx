@@ -26,6 +26,7 @@ export default function Contact() {
 
   return (
     <motion.div
+      id="contact"
       className="mt-60 mb-20 border-t mx-[5%] md:mx-[10%] lg:mx-[15%] flex flex-col justify-center items-center"
       viewport={{ once: true }}
       initial={{ opacity: 0, y: 10 }}

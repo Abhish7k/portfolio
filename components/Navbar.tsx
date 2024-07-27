@@ -3,7 +3,7 @@
 import { ThemeToggle } from "./ThemeToggle";
 import Link from "next/link";
 import { SiGithub, SiLinkedin, SiTwitter } from "react-icons/si";
-import { motion } from "framer-motion";
+import { useEffect, useState } from "react";
 
 const Navbar = () => {
   const socials = [
@@ -24,15 +24,34 @@ const Navbar = () => {
     },
   ];
 
+  const [scrolled, setScrolled] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const offset = window.scrollY;
+      if (offset > 50) {
+        setScrolled(true);
+      } else {
+        setScrolled(false);
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
   return (
-    <motion.div
-      className="flex justify-between mx-[5%] md:mx-[10%] lg:mx-[20%] pt-10"
-      initial={{ opacity: 0, y: -30 }}
-      animate={{ opacity: 1, y: 0 }}
-      transition={{
-        duration: 0.5,
-        delay: 0.2,
-      }}
+    <div
+      className={`
+        sticky top-0 z-50 px-[5%] md:px-[5%] lg:px-[16%] py-4 flex justify-between transition-all duration-500 
+        ${
+          scrolled
+            ? "bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60"
+            : ""
+        }
+      `}
     >
       <div className="dark:text-white text-center flex-col items-center">
         <Link href="/">
@@ -63,7 +82,7 @@ const Navbar = () => {
         </div>
         <ThemeToggle />
       </div>
-    </motion.div>
+    </div>
   );
 };
 
