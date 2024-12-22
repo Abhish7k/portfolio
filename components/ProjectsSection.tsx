@@ -8,9 +8,16 @@ export default function ProjectsSection() {
     <motion.div
       className="mt-60 mb-40 mx-[10%] md:mx-[10%] lg:mx-[15%] xl:mx-[20%]"
       viewport={{ once: true }}
-      initial={{ opacity: 0, y: 10 }}
+      initial={{ opacity: 0, y: 20 }}
       whileInView={{ opacity: 1, y: 0 }}
-      transition={{ type: "easIn", duration: 0.5, delay: 0.6 }}
+      transition={{
+        ease: "easeInOut",
+        duration: 0.4,
+        delay: 0.6,
+        type: "spring",
+        stiffness: 260,
+        damping: 20,
+      }}
     >
       {/* section title */}
       <div className="text-center flex-col items-center">

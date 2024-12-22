@@ -29,9 +29,16 @@ export default function Contact() {
       id="contact"
       className="mt-60 mb-20 border-t mx-[5%] md:mx-[10%] lg:mx-[15%] flex flex-col justify-center items-center"
       viewport={{ once: true }}
-      initial={{ opacity: 0, y: 10 }}
+      initial={{ opacity: 0, y: 20 }}
       whileInView={{ opacity: 1, y: 0 }}
-      transition={{ type: "easIn", duration: 0.5, delay: 0.6 }}
+      transition={{
+        ease: "easeInOut",
+        duration: 0.4,
+        delay: 0.6,
+        type: "spring",
+        stiffness: 260,
+        damping: 20,
+      }}
     >
       <div className="mt-10 flex">
         <div className="text-2xl md:text-3xl font-bold transition-all">
@@ -50,7 +57,7 @@ export default function Contact() {
           me, I&apos;ll get back to you in no time!
         </h1>
         <a href="mailto:abhishekbhosale.dev@gmail.com">
-          <Button>Say Hello</Button>
+          <Button className="active:scale-90 transition-all">Say Hello</Button>
         </a>
       </div>
 

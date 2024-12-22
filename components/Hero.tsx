@@ -12,11 +12,16 @@ const Hero = () => {
   return (
     <motion.div
       className="flex flex-col items-center justify-center min-h-[80vh]"
-      initial={{ opacity: 0, y: 10 }}
-      animate={{ opacity: 1, y: 0 }}
+      viewport={{ once: true }}
+      initial={{ opacity: 0, y: 20 }}
+      whileInView={{ opacity: 1, y: 0 }}
       transition={{
-        duration: 0.8,
-        delay: 0.2,
+        ease: "easeInOut",
+        duration: 0.4,
+        delay: 0.6,
+        type: "spring",
+        stiffness: 260,
+        damping: 20,
       }}
     >
       <div className="">
@@ -47,14 +52,20 @@ const Hero = () => {
           target="_blank"
           className=""
         >
-          <Button className="px-6 rounded-full gap-2 text-lg" variant="outline">
+          <Button
+            className="px-6 rounded-full gap-2 text-lg active:scale-90 transition-all"
+            variant="outline"
+          >
             Resume
             <HiDownload />
           </Button>
         </Link>
 
-        <Button className="px-6 rounded-full text-lg" variant="outline">
-          <a href="/#contact" className="flex items-center gap-2">
+        <Button
+          className="px-6 rounded-full text-lg active:scale-90 transition-all"
+          variant="outline"
+        >
+          <a href="/#contact" className="flex items-center gap-2 ">
             Contact me
             <FiArrowUpRight />
           </a>
