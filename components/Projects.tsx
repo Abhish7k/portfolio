@@ -5,11 +5,11 @@ import { FaExternalLinkSquareAlt, FaGithub } from "react-icons/fa";
 
 export default function Projects() {
   return (
-    <div className="grid lg:grid-cols-2 mt-20 gap-10">
+    <div className="mx-[5%] grid lg:grid-cols-2 mt-20 gap-x-10 gap-y-10">
       {projectsData.map((proj, idx) => (
         <div
           key={idx}
-          className="border p-4 max-w-lg bg-white dark:bg-gray-900 rounded-lg"
+          className="border p-4 max-w-lg bg-white dark:bg-gray-900 rounded-lg hover:shadow transition-all duration-300"
         >
           {/* image */}
           <Link href={proj.liveLink} target="_blank" className="">

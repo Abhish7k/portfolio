@@ -11,7 +11,7 @@ import { motion } from "framer-motion";
 const Hero = () => {
   return (
     <motion.div
-      className="flex flex-col items-center mt-32 pb-20"
+      className="flex flex-col items-center justify-center min-h-[80vh]"
       initial={{ opacity: 0, y: 10 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{
