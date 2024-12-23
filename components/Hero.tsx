@@ -65,7 +65,10 @@ const Hero = () => {
           className="px-6 rounded-full text-lg active:scale-90 transition-all"
           variant="outline"
         >
-          <a href="/#contact" className="flex items-center gap-2 ">
+          <a
+            href="mailto:abhishekbhosale.dev@gmail.com"
+            className="flex items-center gap-2 "
+          >
             Contact me
             <FiArrowUpRight />
           </a>

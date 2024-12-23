@@ -16,9 +16,9 @@ export default function Projects() {
             <Image
               src={proj.image}
               alt="project"
-              height={500}
-              width={500}
-              className="rounded-lg flex items-start object-cover max-h-64 border"
+              height={1000}
+              width={1000}
+              className="rounded-lg flex items-start object-contain max-h-64 border"
             />
           </Link>
 

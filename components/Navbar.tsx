@@ -54,7 +54,7 @@ const Navbar = () => {
       `}
     >
       <div className="dark:text-white text-center flex-col items-center">
-        <Link href="/">
+        <Link href="/#hero">
           <div className="flex gap-2 items-center">
             <span className="text-2xl md:text-3xl font-bold transition-all">
               Abhishek
