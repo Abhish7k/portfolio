@@ -45,7 +45,7 @@ const Navbar = () => {
   return (
     <div
       className={`
-        sticky top-0 z-50 px-[5%] md:px-[5%] lg:px-[16%] py-4 flex justify-between transition-all duration-500 
+        sticky top-0 z-50 px-5 md:px-[5%] lg:px-[10%] xl:px-[16%] py-4 flex justify-between transition-all duration-500
         ${
           scrolled
             ? "bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60"
@@ -54,7 +54,7 @@ const Navbar = () => {
       `}
     >
       <div className="dark:text-white text-center flex-col items-center">
-        <Link href="/">
+        <Link href="/#hero">
           <div className="flex gap-2 items-center">
             <span className="text-2xl md:text-3xl font-bold transition-all">
               Abhishek

@@ -127,9 +127,17 @@ export const skills = [
 
 export const projectsData = [
   {
+    title: "ProductShpere",
+    description: "Platform to discover and launch new products.",
+    techStack: ["TypeScript", "Next.js", "Tailwind", "Prisma", "Stripe"],
+    githubLink: "https://github.com/Abhish7k/ProductSphere",
+    liveLink: "https://product-sphere.vercel.app/",
+    image: "/productsphere.png",
+  },
+  {
     title: "NoteVerse",
     description: "Note Taking Saas Platform.",
-    techStack: ["TypeScript", "Next.js", "Tailwind", "Prisma", "Supabase"],
+    techStack: ["TypeScript", "Next.js", "Tailwind", "Prisma", "Stripe"],
     githubLink: "https://github.com/Abhish7k/NoteVerse",
     liveLink: "https://noteverse-saas.vercel.app/",
     image: "/noteverse.png",
@@ -141,14 +149,6 @@ export const projectsData = [
     githubLink: "https://github.com/Abhish7k/StayScout",
     liveLink: "https://stayscout.vercel.app/",
     image: "/stayscout.png",
-  },
-  {
-    title: "SneakerVault",
-    description: "Ecommerce platform for buying sneakers.",
-    techStack: ["TypeScript", "Next.js", "Tailwind", "Sanity", "Stripe"],
-    githubLink: "https://github.com/Abhish7k/sneakervault",
-    liveLink: "https://sneakervault.vercel.app/",
-    image: "/sneakervault.png",
   },
   {
     title: "Summify",

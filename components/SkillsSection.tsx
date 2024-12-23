@@ -6,11 +6,18 @@ import { motion } from "framer-motion";
 export default function SkillsSection() {
   return (
     <motion.div
-      className="mx-[10%] md:mx-[10%] lg:mx-[20%] my-40"
+      className="mx-[10%] md:mx-[10%] lg:mx-[15%] xl:mx-[20%] my-40"
       viewport={{ once: true }}
-      initial={{ opacity: 0, y: 10 }}
+      initial={{ opacity: 0, y: 20 }}
       whileInView={{ opacity: 1, y: 0 }}
-      transition={{ type: "easIn", duration: 0.5, delay: 0.6 }}
+      transition={{
+        ease: "easeInOut",
+        duration: 0.4,
+        delay: 0.6,
+        type: "spring",
+        stiffness: 260,
+        damping: 20,
+      }}
     >
       {/* section title */}
       <div className="text-center flex-col items-center">
