@@ -8,7 +8,7 @@ export const AboutMeSection = () => {
   return (
     <motion.div
       className="mx-[10%] md:mx-[10%] lg:mx-[15%] xl:mx-[20%] my-40 flex flex-col justify-center"
-      viewport={{ once: true }}
+      viewport={{ once: true, amount: 0.2 }}
       initial={{ opacity: 0, y: 20 }}
       whileInView={{ opacity: 1, y: 0 }}
       transition={{
