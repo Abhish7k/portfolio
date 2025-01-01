@@ -11,7 +11,7 @@ import { motion } from "framer-motion";
 const Hero = () => {
   return (
     <motion.div
-      className="flex flex-col items-center justify-center min-h-[80vh]"
+      className="flex flex-col items-center justify-center mt-36 mb-72"
       viewport={{ once: true }}
       initial={{ opacity: 0, y: 20 }}
       whileInView={{ opacity: 1, y: 0 }}

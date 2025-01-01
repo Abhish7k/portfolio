@@ -20,7 +20,7 @@ export default function Skills() {
             <CardContent className="flex items-center flex-wrap gap-3">
               {skill.stacks.map((stack, index) => (
                 <TooltipProvider key={index}>
-                  <Tooltip>
+                  <Tooltip delayDuration={200}>
                     <TooltipTrigger>
                       <Image
                         key={index}
@@ -31,6 +31,7 @@ export default function Skills() {
                         className="rounded"
                       />
                     </TooltipTrigger>
+
                     <TooltipContent>
                       <p>{stack.toolTipContent}</p>
                     </TooltipContent>

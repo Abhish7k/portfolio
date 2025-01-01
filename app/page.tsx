@@ -7,7 +7,7 @@ import { AboutMeSection } from "@/components/AboutMeSection";
 
 export default function Home() {
   return (
-    <main>
+    <main className="max-w-[2000px] mx-auto">
       <Navbar />
       <Hero />
       <AboutMeSection />
