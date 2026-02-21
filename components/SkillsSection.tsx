@@ -23,18 +23,16 @@ export default function SkillsSection() {
       <div className="text-center flex-col items-center">
         <div>
           <div className="flex gap-2 items-center">
-            <span className="text-2xl md:text-4xl font-bold transition-all">
-              Skills
-            </span>
-            <span className="text-xl md:text-3xl hover:scale-110 transition-all">
-              🦾
-            </span>
+            <span className="text-2xl md:text-4xl font-bold transition-all">Skills</span>
+
+            <span className="text-xl md:text-3xl hover:scale-110 transition-all">🦾</span>
           </div>
+
           <div className="h-1.5 w-24 md:w-36 -ml-1 bg-indigo-400 rounded-full transition-all"></div>
         </div>
       </div>
 
-      <div className="mt-20">
+      <div className="mt-12">
         <Skills />
       </div>
     </motion.div>

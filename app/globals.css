@@ -26,6 +26,13 @@ html {
   transition: transform 0.1s ease;
 }
 
+/* animated theme toggle */
+::view-transition-old(root),
+::view-transition-new(root) {
+  animation: none;
+  mix-blend-mode: normal;
+}
+
 @keyframes profileImageAnimation {
   0%,
   100% {
