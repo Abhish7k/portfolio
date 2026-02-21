@@ -1,21 +1,20 @@
+import { title } from "process";
+
 export const skills = [
   {
     title: "Languages",
     stacks: [
       {
-        imgPath:
-          "https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/JavaScript.svg",
-        toolTipContent: "JavaScript",
+        imgPath: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg",
+        name: "Java",
       },
       {
-        imgPath:
-          "https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/TypeScript.svg",
-        toolTipContent: "TypeScript",
+        imgPath: "https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/JavaScript.svg",
+        name: "JavaScript",
       },
       {
-        imgPath:
-          "https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/CPP.svg",
-        toolTipContent: "C++",
+        imgPath: "https://raw.githubusercontent.com/tandpfun/skill-icons/refs/heads/main/icons/TypeScript.svg",
+        name: "TypeScript",
       },
     ],
   },
@@ -23,103 +22,103 @@ export const skills = [
     title: "Frontend",
     stacks: [
       {
-        imgPath:
-          "https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/HTML.svg",
-        toolTipContent: "HTML5",
+        imgPath: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
+        name: "React",
       },
       {
-        imgPath:
-          "https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/CSS.svg",
-        toolTipContent: "CSS3",
-      },
-
-      {
-        imgPath:
-          "https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/TailwindCSS-Dark.svg",
-        toolTipContent: "Tailwind CSS",
-      },
-
-      {
-        imgPath:
-          "https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/NextJS-Dark.svg",
-        toolTipContent: "Next JS",
+        imgPath: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg",
+        name: "Next.js",
       },
       {
-        imgPath:
-          "https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/React-Dark.svg",
-        toolTipContent: "React JS",
+        imgPath: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg",
+        name: "Tailwind CSS",
       },
-
       {
-        imgPath:
-          "https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/Redux.svg",
-        toolTipContent: "Redux",
+        imgPath: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redux/redux-original.svg",
+        name: "Redux Toolkit",
+      },
+      {
+        imgPath: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
+        name: "HTML5",
+      },
+      {
+        imgPath: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
+        name: "CSS3",
       },
     ],
   },
   {
-    title: "Backend",
+    title: "Backend & Database",
     stacks: [
       {
-        imgPath:
-          "https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/NodeJS-Dark.svg",
-        toolTipContent: "Node JS",
+        imgPath: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg",
+        name: "Spring Boot",
       },
       {
-        imgPath:
-          "https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/ExpressJS-Dark.svg",
-        toolTipContent: "Express JS",
+        imgPath: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/hibernate/hibernate-original.svg",
+        name: "Hibernate",
       },
       {
-        imgPath:
-          "https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/Prisma.svg",
-        toolTipContent: "Prisma",
+        imgPath: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg",
+        name: "Node.js",
       },
       {
-        imgPath:
-          "https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/MongoDB.svg",
-        toolTipContent: "MongoDB",
+        imgPath: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg",
+        name: "MySQL",
       },
       {
-        imgPath:
-          "https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/PostgreSQL-Dark.svg",
-        toolTipContent: "PostgreSQL",
+        imgPath: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg",
+        name: "MongoDB",
       },
       {
-        imgPath:
-          "https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/Redis-Dark.svg",
-        toolTipContent: "Redis",
+        imgPath: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redis/redis-original.svg",
+        name: "Redis",
+      },
+      {
+        imgPath: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rabbitmq/rabbitmq-original.svg",
+        name: "RabbitMQ",
       },
     ],
   },
-
   {
-    title: "Tools",
+    title: "DevOps ",
     stacks: [
       {
-        imgPath:
-          "https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/Git.svg",
-        toolTipContent: "Git",
+        imgPath: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg",
+        name: "Git",
+      },
+      {
+        imgPath: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg",
+        name: "GitHub",
+      },
+      {
+        imgPath: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg",
+        name: "Docker",
+      },
+      {
+        imgPath: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kubernetes/kubernetes-plain.svg",
+        name: "Kubernetes",
       },
       {
         imgPath:
-          "https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/Github-Dark.svg",
-        toolTipContent: "GitHub",
+          "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-plain-wordmark.svg",
+        name: "AWS",
       },
       {
-        imgPath:
-          "https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/Docker.svg",
-        toolTipContent: "Docker",
+        imgPath: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cloudflare/cloudflare-original.svg",
+        name: "Cloudflare",
       },
       {
-        imgPath:
-          "https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/AWS-Dark.svg",
-        toolTipContent: "AWS",
+        imgPath: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/githubactions/githubactions-plain.svg",
+        name: "GitHub Actions",
       },
       {
-        imgPath:
-          "https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/Linux-Dark.svg",
-        toolTipContent: "Linux",
+        imgPath: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/prometheus/prometheus-original.svg",
+        name: "Prometheus",
+      },
+      {
+        imgPath: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/grafana/grafana-original.svg",
+        name: "Grafana",
       },
     ],
   },
@@ -127,11 +126,19 @@ export const skills = [
 
 export const projectsData = [
   {
+    title: "Vaxify",
+    description: "Vaccine Management System.",
+    techStack: ["Java", "Spring Boot", "TypeScript", "React.js", "MySQL", "Docker", "AWS"],
+    githubLink: "https://github.com/Abhish7k/Vaxify",
+    liveLink: "https://vaxify.xyz",
+    image: "/vaxify.png",
+  },
+  {
     title: "ProductShpere",
     description: "Platform to discover and launch new products.",
     techStack: ["TypeScript", "Next.js", "Tailwind", "Prisma", "Stripe"],
     githubLink: "https://github.com/Abhish7k/ProductSphere",
-    liveLink: "https://product-sphere.vercel.app/",
+    liveLink: "https://productsphere.abhish7k.xyz/",
     image: "/productsphere.png",
   },
   {
@@ -139,23 +146,61 @@ export const projectsData = [
     description: "Note Taking Saas Platform.",
     techStack: ["TypeScript", "Next.js", "Tailwind", "Prisma", "Stripe"],
     githubLink: "https://github.com/Abhish7k/NoteVerse",
-    liveLink: "https://noteverse-saas.vercel.app/",
+
+    liveLink: "https://noteverse.abhish7k.xyz/",
     image: "/noteverse.png",
-  },
-  {
-    title: "StayScout",
-    description: "Platform for renting out spaces.",
-    techStack: ["TypeScript", "Next.js", "Tailwind", "Prisma", "Supabase"],
-    githubLink: "https://github.com/Abhish7k/StayScout",
-    liveLink: "https://stayscout.vercel.app/",
-    image: "/stayscout.png",
   },
   {
     title: "Summify",
     description: "AI Article Summarizer.",
     techStack: ["JavaScript", "React.js", "Tailwind", "Redux", "RTK Query"],
     githubLink: "https://github.com/Abhish7k/summify",
-    liveLink: "https://aisummify.vercel.app/",
+    liveLink: "https://summify.abhish7k.xyz/",
     image: "/summify.png",
+  },
+];
+
+export const otherProjectsData = [
+  {
+    title: "StayScout",
+    description: "Platform connecting travelers with property owners.",
+    link: "https://github.com/Abhish7k/StayScout",
+    language: "TypeScript, Next.js",
+    languageColor: "#3178c6",
+  },
+  {
+    title: "Fake News Detection",
+    description: "Fake News Detection using Machine Learning.",
+    link: "https://github.com/Abhish7k/fake-news-frontend",
+    language: "Python, Next.js",
+    languageColor: "#f7df1e",
+  },
+  {
+    title: "SneakerVault",
+    description: "Platform for buying the latest and greatest sneakers.",
+    link: "https://github.com/Abhish7k/SneakerVault",
+    language: "TypeScript, Next.js, Tailwind, Prisma, Stripe",
+    languageColor: "#3178c6",
+  },
+  {
+    title: "Movix",
+    description: "Movie streaming platform.",
+    link: "https://github.com/Abhish7k/Movix",
+    language: "JavaScript, React.js",
+    languageColor: "#f7df1e",
+  },
+  {
+    title: "Pokedex",
+    description: "Pokedex app built using Nextjs",
+    link: "https://github.com/Abhish7k/Pokedex-NextJS",
+    language: "TypeScript, Next.js",
+    languageColor: "#3178c6",
+  },
+  {
+    title: "NextPix",
+    description: "Image Gallery built using Nextjs",
+    link: "https://github.com/Abhish7k/NextPix",
+    language: "TypeScript, Next.js",
+    languageColor: "#3178c6",
   },
 ];
