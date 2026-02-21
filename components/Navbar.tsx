@@ -4,6 +4,7 @@ import { ThemeToggle } from "./ThemeToggle";
 import Link from "next/link";
 import { SiGithub, SiLinkedin, SiTwitter } from "react-icons/si";
 import { useEffect, useState } from "react";
+import { AnimatedThemeToggler } from "./ui/animated-theme-toggler";
 
 const Navbar = () => {
   const socials = [
@@ -45,42 +46,30 @@ const Navbar = () => {
   return (
     <div
       className={`
-        sticky top-0 z-50 px-5 md:px-[5%] lg:px-[10%] xl:px-[16%] py-4 flex justify-between transition-all duration-500
-        ${
-          scrolled
-            ? "bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60"
-            : ""
-        }
+        sticky top-0 z-50 px-5 md:px-[5%] lg:px-[10%] xl:px-[16%] py-4 flex justify-between transition-all
+        ${scrolled ? "bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60 border-b" : ""}
       `}
     >
       <div className="dark:text-white text-center flex-col items-center">
         <Link href="/#hero">
           <div className="flex gap-2 items-center">
-            <span className="text-2xl md:text-3xl font-bold transition-all">
-              Abhishek
-            </span>
-            <span className="text-xl md:text-2xl">🧑🏻‍💻</span>
+            <span className="text-2xl md:text-3xl font-bold transition-all">Abhishek</span>
           </div>
           <div className="h-1 w-full bg-indigo-400 rounded-full"></div>
         </Link>
       </div>
-      <div className="flex items-center gap-2 md:gap-4">
+      <div className="flex items-center gap-2 md:gap-8">
         <div className="flex gap-2 md:gap-4 transition-all">
           {socials.map((social) => {
             return (
-              <Link
-                key={social.label}
-                href={social.link}
-                aria-label={social.label}
-                className=""
-                target="_blank"
-              >
+              <Link key={social.label} href={social.link} aria-label={social.label} className="" target="_blank">
                 <social.icon className="w-5 h-5 hover:scale-125 transition-all" />
               </Link>
             );
           })}
         </div>
-        <ThemeToggle />
+
+        <AnimatedThemeToggler />
       </div>
     </div>
   );
