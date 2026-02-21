@@ -13,7 +13,8 @@ export const skills = [
         name: "JavaScript",
       },
       {
-        imgPath: "https://raw.githubusercontent.com/tandpfun/skill-icons/refs/heads/main/icons/TypeScript.svg",
+        imgPath:
+          "https://raw.githubusercontent.com/tandpfun/skill-icons/refs/heads/main/icons/TypeScript.svg",
         name: "TypeScript",
       },
     ],
@@ -30,7 +31,8 @@ export const skills = [
         name: "Next.js",
       },
       {
-        imgPath: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg",
+        imgPath:
+          "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg",
         name: "Tailwind CSS",
       },
       {
@@ -96,10 +98,6 @@ export const skills = [
         name: "Docker",
       },
       {
-        imgPath: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kubernetes/kubernetes-plain.svg",
-        name: "Kubernetes",
-      },
-      {
         imgPath:
           "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-plain-wordmark.svg",
         name: "AWS",
@@ -109,16 +107,17 @@ export const skills = [
         name: "Cloudflare",
       },
       {
-        imgPath: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/githubactions/githubactions-plain.svg",
+        imgPath:
+          "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/githubactions/githubactions-plain.svg",
         name: "GitHub Actions",
-      },
-      {
-        imgPath: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/prometheus/prometheus-original.svg",
-        name: "Prometheus",
       },
       {
         imgPath: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/grafana/grafana-original.svg",
         name: "Grafana",
+      },
+      {
+        imgPath: "https://raw.githubusercontent.com/grafana/loki/main/docs/sources/logo.png",
+        name: "Loki",
       },
     ],
   },

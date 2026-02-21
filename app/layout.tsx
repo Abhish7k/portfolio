@@ -4,6 +4,8 @@ import { ThemeProvider } from "@/components/theme-provider";
 import "./globals.css";
 import CustomCursor from "@/components/CustomCursor";
 
+import { Analytics } from "@vercel/analytics/next";
+
 const inter = Inter({ subsets: ["latin"] });
 const spaceGrotesk = Space_Grotesk({ subsets: ["latin"] });
 
@@ -43,6 +45,8 @@ export default function RootLayout({
           {children}
 
           <div className="h-screen w-full dark:bg-black bg-white  dark:bg-grid-white/[0.05] bg-grid-black/[0.01] fixed bottom-0 left-0 right-0 top-0 -z-20 overflow-hidden"></div>
+
+          <Analytics />
         </ThemeProvider>
       </body>
     </html>
