@@ -32,6 +32,7 @@ const Hero = () => {
           width={250}
           id="profile-image"
           className="border-2 border-green-400 w-52 md:w-full"
+          draggable={false}
         />
       </div>
 
@@ -42,33 +43,20 @@ const Hero = () => {
         </h1>
 
         <div className="text-lg md:text-xl max-w-2xl transition-all">
-          I&apos;m a Passionate Full Stack Developer based in Pune, India 📍
+          I&apos;m a Passionate Full Stack Developer <br className="sm:hidden" /> based in Pune, India 📍
         </div>
       </div>
 
       <div className="mt-10 flex items-center gap-2">
-        <Link
-          href="https://dub.sh/abhish7k-resume"
-          target="_blank"
-          className=""
-        >
-          <Button
-            className="px-6 rounded-full gap-2 text-lg active:scale-90 transition-all"
-            variant="outline"
-          >
+        <Link href="https://dub.sh/abhish7k-resume" target="_blank" className="">
+          <Button className="px-6 rounded-full gap-2 text-lg active:scale-90 transition-all" variant="outline">
             Resume
             <HiDownload />
           </Button>
         </Link>
 
-        <Button
-          className="px-6 rounded-full text-lg active:scale-90 transition-all"
-          variant="outline"
-        >
-          <a
-            href="mailto:abhishekbhosale.dev@gmail.com"
-            className="flex items-center gap-2 "
-          >
+        <Button className="px-6 rounded-full text-lg active:scale-90 transition-all" variant="outline">
+          <a href="mailto:abhishekbhosale.dev@gmail.com" className="flex items-center gap-2 ">
             Contact me
             <FiArrowUpRight />
           </a>

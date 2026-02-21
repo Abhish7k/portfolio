@@ -24,13 +24,9 @@ export const AboutMeSection = () => {
       <div className="text-center flex-col items-center">
         <div>
           <div className="flex gap-2 items-center">
-            <span className="text-2xl md:text-4xl font-bold transition-all">
-              About Me
-            </span>
-            <span className="text-xl md:text-3xl hover:scale-110 transition-all">
-              {/* 🧑🏻‍💻 */}
-              📜
-            </span>
+            <span className="text-2xl md:text-4xl font-bold transition-all">About Me</span>
+
+            <span className="text-xl md:text-3xl hover:scale-110 transition-all">📜</span>
           </div>
           <div className="h-1.5 w-36 md:w-56 -ml-1 bg-indigo-400 rounded-full transition-all"></div>
         </div>
@@ -38,48 +34,79 @@ export const AboutMeSection = () => {
 
       <div className="mt-20 px-5 md:px-10 text-lg sm:text-xl">
         <div>
-          I&apos;m Abhishek Bhosale, a passionate{" "}
-          <span className="font-medium">Full Stack Developer</span> skilled in{" "}
-          <span className="font-medium">
-            JavaScript, React.js, and Next.js.
-          </span>{" "}
-          I&apos;m pursuing my{" "}
-          <span className="font-medium">
-            Bachelor&apos;s in Computer Science
-          </span>{" "}
-          from Pune University. My proficiency spans frontend, backend, and
-          full-stack development, complemented by hands-on experience through
-          internships and freelance projects
+          I&apos;m Abhishek Bhosale, a passionate <span className="font-medium">Full Stack Developer</span> skilled in{" "}
+          <span className="font-medium">Java, Spring Boot, JavaScript, React.js.</span> I have a{" "}
+          <span className="font-medium">Bachelor&apos;s in Computer Science</span> from Pune University. My proficiency
+          spans frontend, backend, and full-stack development, complemented by hands-on experience through internships
+          and freelance projects
         </div>
 
         <div className="px-2">
           <TimeLine>
             <TimeLineItem active>
               <TimeLineItem.Title>
-                <span className="font-medium transition-all">
-                  Fullstack Developer Intern at Sanity Gaming
-                </span>{" "}
-                • <span className="">June 2024 - September 2024</span>
+                <span className="font-medium transition-all">Post Graduate Diploma in Advanced Computing (PG-DAC)</span>{" "}
+                • <span className="">Aug 2025 - Feb 2026</span>
               </TimeLineItem.Title>
 
               <TimeLineItem.Description>
-                Played a key role in developing the MVP, including designing and
-                building the entire landing page, and crafting a seamless
-                onboarding experience. I collaborated closely with the team to
-                deliver a seamless and scalable product experience.
+                <span className="block mb-4">C-DAC (Centre for Development of Advanced Computing), Pune</span>
+
+                <>
+                  <ul className="list-disc ml-5 space-y-4 text-zinc-600 dark:text-zinc-400">
+                    <li>
+                      Completed an intensive 900+ hour curriculum covering <b>Java</b>, <b>Full Stack Development</b>,{" "}
+                      <b>Algorithms & Data Structures</b>, <b>C++</b>, and <b>.NET Technologies</b>
+                    </li>
+
+                    <li>
+                      Gained a strong foundation in <b>Database Technologies</b>, <b>Operating System Concepts</b>,{" "}
+                      <b>Software Development Methodologies</b> & <b>DevOps</b>
+                    </li>
+
+                    <li>
+                      Developed and deployed an end-to-end{" "}
+                      <b>
+                        Capstone Project ({" "}
+                        <a
+                          href="https://vaxify.xyz"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="hover:underline text-indigo-600 dark:hover:text-indigo-400 transition-all"
+                        >
+                          Vaxify
+                        </a>{" "}
+                        ){" "}
+                      </b>{" "}
+                      as a part of this program
+                    </li>
+                  </ul>
+                </>
+              </TimeLineItem.Description>
+            </TimeLineItem>
+
+            <TimeLineItem>
+              <TimeLineItem.Title>
+                <span className="font-medium transition-all">Fullstack Developer Intern at Sanity Gaming</span> •{" "}
+                <span className="">June 2024 - September 2024</span>
+              </TimeLineItem.Title>
+
+              <TimeLineItem.Description>
+                <span className="text-zinc-600 dark:text-zinc-400">
+                  Played a key role in developing the MVP, including designing and building the entire landing page, and
+                  crafting a seamless onboarding experience. I collaborated closely with the team to deliver a seamless
+                  and scalable product experience.
+                </span>
               </TimeLineItem.Description>
             </TimeLineItem>
 
             <TimeLineItem last>
               <TimeLineItem.Title>
-                <span className="font-medium transition-all">
-                  Bachelors in Computer Science
-                </span>{" "}
-                • <span className="">2024</span>
+                <span className="font-medium transition-all">Bachelors in Computer Science</span> •{" "}
+                <span className="">2024</span>
               </TimeLineItem.Title>
-              <TimeLineItem.Description>
-                Savitribai Phule Pune University
-              </TimeLineItem.Description>
+
+              <TimeLineItem.Description>Savitribai Phule Pune University</TimeLineItem.Description>
             </TimeLineItem>
           </TimeLine>
         </div>
